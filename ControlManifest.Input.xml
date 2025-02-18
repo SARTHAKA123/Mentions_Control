@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="congruentX" constructor="MentionsControl" version="1.0.6" display-name-key="MentionsControl" description-key="congruentX MentionsControl" control-type="standard" >
+   
+    <external-service-usage enabled="false">
+     
+    </external-service-usage>
+
+<property name="DefaultText" display-name-key="Default Text" description-key="DefaultText" of-type="SingleLine.Text" usage="input" required="true" /> 
+
+<property name="Mentions" display-name-key="Mentions" description-key="Mentions_Desc_Key" of-type="SingleLine.Text" usage="input" required="true" />
+
+<property name="Suggetions" display-name-key="Suggetions" description-key="Suggetions" of-type="SingleLine.Text" usage="input" required="true" />
+
+<property name="HintText" display-name-key="Hint Text" description-key="Hint Text" of-type="SingleLine.Text" usage="input" required="true" />
+
+<property name="CustomHeight" display-name-key="Custom Height" description-key="Custom Height" of-type="SingleLine.Text" usage="input" required="true"  />
+
+<property name="BackgroundColor" display-name-key="Background Color" description-key="Background Color" of-type="SingleLine.Text" usage="input" />
+
+<property name="ResetTextarea" display-name-key="Reset" description-key="Reset Textarea" of-type="SingleLine.Text" usage="input" />
+
+
+
+<property name="OutputText" display-name-key="OutputText_Display_Key" description-key="OutputText_Desc_Key" of-type="SingleLine.Text" usage="output" hidden="true" />
+
+
+    <resources>
+      <code path="index.ts" order="1"/>
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/MentionsControl.css" order="1" />
+      <resx path="strings/MentionsControl.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+    
+  </control>
+</manifest>
